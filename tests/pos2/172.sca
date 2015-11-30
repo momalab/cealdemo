@@ -1,0 +1,12 @@
+# array with function
+
+.pragma io=ts PQ=7.11
+
+        psz1 (-1)
+        psz2 (-1) (-1)
+
+. [sz1] [$B2()]
+. [sz2] [(1+$B2()+$beta())]
+. psz1:sz1 psz2:sz2
+
+

@@ -1,0 +1,8 @@
+.pragma io=ts r=4 PQ=7.11
+
+. A:A
+~{ E:~E }
+. B:B
+
+
+

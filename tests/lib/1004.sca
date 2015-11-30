@@ -1,0 +1,14 @@
+.pragma io=ts N=512
+
+OUT=-1
+HALT=-1
+
+.omul R S U
+R OUT 
+S OUT
+U OUT HALT
+
+. R:13 S:7 U:0
+ 
+.include "open.lib"
+

@@ -1,0 +1,12 @@
+# simple macro
+. Z:0 0 3
+
+l1:l2:
+lab: .aaa (-1)
+. lab
+
+.def aaa x : Z
+Z Z x
+.end
+
+
