@@ -15,7 +15,7 @@ How to run the PIR example:
 -   Unpack tests.zip
 -   Go to "pir" directory
 -   Run the example
-  - <path>\ceal.exe 204.sca
+  - pathto\ceal.exe 204.sca
 -   Observe output
   -   38181.39206 45559.25955 14829.32282 8946.21379 
   -   18846.3887 13765.29333 13765.29333 8
