@@ -7,9 +7,9 @@ Please note, the executable is built with a slow numerical library
 expected to be slightly different from those presented in the paper.
 
 Files:
-1. usage.pdf - extract from the technical document
-2. ceal.exe - Windows executable, Win7 or higher version is required
-3. tests.zip - selected test cases
+* usage.pdf - extract from the CEAL technical document (to be released separately)
+* ceal.exe - Windows executable, Win7 or higher version is required
+* tests.zip - selected test cases
 
 How to run the PIR example:
 -   Unpack tests.zip
