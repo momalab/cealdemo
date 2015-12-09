@@ -1,4 +1,4 @@
-.pragma r=2 PQ=5.5
+.pragma r=2 N=5.5
 b=$random()
 b:b (-1)
 b b (-1)

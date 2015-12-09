@@ -1,4 +1,4 @@
-.pragma io=ts PQ=29.101 k=5 r=17
+.pragma PQ=29.101 k=5 r=17
 
 .smul   A B C
 

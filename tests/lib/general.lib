@@ -1,7 +1,8 @@
+.pragma once
 
 # general constants
 . Z:0 # assumed to be always zero; clean up after use
-. _T:0 # no zero assumtion; clean up before use
+. _T:0 # no zero assumption; clean up before use
 . _o1:1 _om1:-1
 
 
@@ -129,7 +130,6 @@ e:
 # # # # #
 .def mov21 x y : Z
 .clear  y
-.clear  z
 .mov    x z
         z:0 Z; Z y; Z
 .end
@@ -146,6 +146,22 @@ e:
 .add    B a
         A a end
 .goto   C
+. a:0
+end:
+.end
+
+
+# # # # #
+# ifeq #
+# # # # #
+.def ifeq A B C
+.mov    A a
+        B a t
+.goto   end
+        t:a
+.add    B a
+        A a C
+.goto   end
 . a:0
 end:
 .end

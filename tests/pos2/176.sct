@@ -1,5 +1,4 @@
-# Hello world!
-.pragma io=ascii r=4 PQ=7.11
+.pragma r=4 PQ=7.11
 
 . $unit(H) $unit(1.1) $unit(1.2) $unit(2.1)
 . $unit(0.3) $unit(0.4) $unit(0.5) $unit(0.7)

@@ -12,9 +12,9 @@ Files:
 * tests - selected test cases including PIR
 
 How to run the PIR example:
--   Go to "pir" directory inside "tests"
--   Run the example
--   pathto\ceal.exe 204.sca
+-   Go to **pir2** directory inside "tests"
+-   Extract ceal.exe from ceal.zip and run ceal.exe on 204.sca:
+  -   __pathto__\ceal.exe 204.sca
 -   Observe output
   -   38181.39206 45559.25955 14829.32282 8946.21379 
   -   18846.3887 13765.29333 13765.29333 8

@@ -1,10 +1,10 @@
 .pragma PQ=17.11 r=2
-
-. oosz sosz ossz1 ossz2 sssz1 sssz2
-. OO: [oosz]    "Opn arr, opn val" '\n'
-{ SO: [sosz]    "Sec arr, opn val" '\n' }
-~. OS1: [ossz1] "Opn arr 1, sec val" '\n'
-. OS2: [ossz2] ~"Opn arr 2, sec val" ~'\n'
-~{ SS1: [sssz1] "Sec arr 1, sec val" '\n'}
-{ SS2: [sssz2] ~"Sec arr 2, sec val" ~'\n' }
+. a b c d e f
+. A B C D E F
+ . [a] A: "Opn addr, opn val"
+ { [b] B: "Sec addr, opn va" }
+~. [c] C: "Opn addr, sec v"
+ . [d] D:~"Opn addr, sec "
+~{ [e] E: "Sec addr, sec" }
+ { [f] F:~"Sec addr, se" }
 

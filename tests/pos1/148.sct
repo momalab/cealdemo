@@ -1,11 +1,11 @@
 # simple macro
-. Z:0 0 3
+. Z:0 0 b
 
 l1:l2:
-lab: .aaa (-1)
-. lab
+b: .abc (-1)
+. b
 
-.def aaa x : Z
+.def abc x : Z
 Z Z x
 .end
 

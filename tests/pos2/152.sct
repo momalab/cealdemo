@@ -1,6 +1,6 @@
-.def aaa
+.abc
+.def abc
 a:a 0 (-1)
 .end
-.aaa
 
 
