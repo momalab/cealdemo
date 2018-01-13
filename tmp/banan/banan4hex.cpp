@@ -20,8 +20,8 @@ string tran(char c)
 {
     string r = " ";
 
-    if ( c >= 102 && c <= 127 ) return r + char('a' + (127 - c));
-    if ( c > 75 && c <= 101 ) return r + char('A' + (101 - c));
+//    if ( c >= 102 && c <= 127 ) return r + char('a' + (127 - c));
+//    if ( c > 75 && c <= 101 ) return r + char('A' + (101 - c));
 
     r = c2h(c);
 
